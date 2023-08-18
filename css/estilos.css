@@ -32,22 +32,17 @@ main{
 
 .main{
     background-color: black;
-    
 }
 
-.infoindex{
-    
-}
+
 .main-falso{
     grid-area: section;
-    
     background-image: url("../multimedia/main4.jpg");
     background-color: rgba(0, 0, 0, 0.11);
     height: 550px;
     background-size: cover;
     border: solid 3px #3A3026 ;
     text-align: center;
-    
 }
 
 footer{
@@ -114,6 +109,37 @@ main{
     width: 30%;
     text-align: center;
 }
+
+.info-personaje{
+    border: solid 3px #3A3026 ;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.clases{
+    width: 20%;
+}
+
+.contenedor-clases{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 170px;
+    text-align: center;
+}
+
+.subclases{
+    width: 4%;
+}
+
+
 
 
 

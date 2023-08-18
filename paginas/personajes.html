@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baldurs Gate 3 FanMade</title>
     <link rel="shortcut icon" href="../multimedia/favicon.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,16 +13,34 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="../multimedia/logo.png" alt="">
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="personajes.html">Personajes</a></li>
-                <li><a href="clases.html">Clases</a></li>
-                <li><a href="build.html">Builds</a></li>
-                <li><a href="mapa.html">Mapa</a></li>
-            </ul>
-        </nav>
+        
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <img class="logo" src="../multimedia/logo.png" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav navbar-ul">
+                    <li class="nav-item">
+                        <a class="navbar-li" href="../index.html">inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-li" href="./personajes.html">Personajes</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="navbar-li" href="./clases.html">Clases</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="navbar-li" href="./sub-clases.html">Sub-clases</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="navbar-li" href="./info.html">Info</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <div class="contenedor-personajes">
         <div class="personaje"><img src="../multimedia/astariont.png" alt="astarion">
@@ -58,9 +77,21 @@
         
         <div class="personaje"><img class="dark" src="../multimedia/dark.png" alt="dark">
             <h2>The Dark Urge</h2>
-            <p>No recuerdas nada más que un camino pavimentado con sangre. Una crueldad inimaginable te susurra desde</p>
+            <p>No recuerdas nada de tu pasado además de que caminaste por un camino pavimentado con sangre. A medida que avanzas, te encuentras ineludiblemente atraído hacia crueldades inimaginables. ¿De dónde vienen estos pensamientos?</p>
         </div>
     </div>
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+  

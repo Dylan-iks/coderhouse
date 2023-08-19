@@ -13,7 +13,6 @@
     grid-template-areas: "header header header header"
     "section section main main"
     "section section main main"
-    "carrusel carrusel carrusel carrusel"
     "footer footer footer footer";
 
 }
@@ -187,15 +186,102 @@ body{
 }
 
 #flecha-up{
-    width: 5%;
+    width: 3%;
     position:fixed;
     bottom: 20px;
     right: 20px;
-    
-
-
-    
 }
+
+/* media queries celular  */
+
+@media screen and (max-width: 450px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedor-personajes{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #flecha-up{
+        width: 5%;
+    }
+
+    .personaje{
+        width: 100%;
+    }
+
+    .navbar-cel{
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    .contenedor-clases{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contenedor-info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        
+        
+    }
+
+    .contenedor-info{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .main-info{
+        height: 1000px;
+        text-align: start;
+    }
+
+    .main-falso{
+        height: 1000px;
+        background-position: center;
+        text-align: start;
+    }
+
+    .videos-index{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .musica-index{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-3{
+        display: none;
+    }
+
+    .video-1{
+        width: 100%;
+    }
+
+    .video-2{
+        width: 100%;
+    }
+
+
+}
+    
+
 
 
 

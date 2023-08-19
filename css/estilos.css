@@ -3,8 +3,8 @@
     margin: 0%;
 }
 
-
-.contenedor-index{
+/* estructura-info */
+.contenedor-info{
     height: 100vh;
     display: grid;
     gap: 1rem;
@@ -13,7 +13,7 @@
     grid-template-areas: "header header header header"
     "section section main main"
     "section section main main"
-    "section section main main"
+    "carrusel carrusel carrusel carrusel"
     "footer footer footer footer";
 
 }
@@ -21,17 +21,19 @@
     width: 15%;
 }
 
-header{
+.header-info{
     grid-area: header;
 }
 
-main{
+
+.main-info{
     grid-area: main;
     height: 550px;
-}
-
-.main{
-    background-color: black;
+    background-image: url("../multimedia/mainfondo.jpeg");
+    background-color: rgba(0, 0, 0, 0.11);
+    background-size: cover;
+    border: solid 3px #3A3026 ;
+    text-align: center;
 }
 
 
@@ -43,11 +45,15 @@ main{
     background-size: cover;
     border: solid 3px #3A3026 ;
     text-align: center;
+
+    
 }
 
-footer{
+
+.footer-info{
     grid-area: footer;
 }
+
 
 ul li{
     display: inline-block;
@@ -77,6 +83,8 @@ a{
     list-style: none;
 }
 
+
+/* fondo */
 body{
     background-image: url("../multimedia/fondo.jpg");
     background-repeat: no-repeat;
@@ -86,21 +94,15 @@ body{
     font-family: 'Poppins', sans-serif;
     color: #A7A2A4;
     text-shadow: 10px 10px 10px black;
-    
 }
 
-main{
-    background-image: url("../multimedia/mainfondo.jpeg");
-    
-    background-size: cover;
-    border: solid 3px #3A3026 ;
-    text-align: center;
-}
 
+/* tamaño personaje */
 .dark{
     width: 80%;
     
 }
+
 
 .contenedor-personajes{
     width: 80%;
@@ -115,11 +117,13 @@ main{
     
 }
 
+
 .personaje{
     border: solid 3px #3A3026 ;
     width: 30%;
     text-align: center;
 }
+
 
 .info-personaje{
     border: solid 3px #3A3026 ;
@@ -127,11 +131,11 @@ main{
     text-align: center;
 }
 
-
-
+/* tamaño logo clases */
 .clases{
     width: 20%;
 }
+
 
 .contenedor-clases{
     width: 80%;
@@ -146,13 +150,16 @@ main{
     text-align: center;
 }
 
+/* tamaño logo sub-clases clases.html */
 .subclases{
     width: 4%;
 }
 
+/* banner index */
 .banner{
     width: 100%;
 }
+
 
 .videos-index{
     display: flex;
@@ -162,6 +169,7 @@ main{
     padding-top: 100px;
 }
 
+
 .musica-index{
     display: flex;
     flex-direction: row;
@@ -169,6 +177,29 @@ main{
     gap: 2rem;
     padding-top: 100px;
 }
+
+
+.lista-sub{
+    text-align: left;
+    color:  #FBCEA0;
+    list-style:circle;
+    
+}
+
+#flecha-up{
+    width: 5%;
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    
+
+
+    
+}
+
+
+
+
 
 
 

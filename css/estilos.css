@@ -60,7 +60,9 @@ a:hover{
     text-decoration: underline;
 }
 
-
+.color{
+    color:  #FBCEA0;
+}
 
 .navbar-li{
     color:  #FBCEA0;
@@ -146,6 +148,26 @@ main{
 
 .subclases{
     width: 4%;
+}
+
+.banner{
+    width: 100%;
+}
+
+.videos-index{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 100px;
+}
+
+.musica-index{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 100px;
 }
 
 

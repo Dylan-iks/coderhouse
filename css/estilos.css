@@ -194,7 +194,7 @@ body{
 
 /* media queries celular  */
 
-@media screen and (max-width: 480px){
+@media screen and (min-width: 320px) and (max-width: 480px){
     body{
         display: flex;
         flex-direction: column;
@@ -255,6 +255,7 @@ body{
     }
 
     .main-falso{
+        display: none;
         height: 1000px;
         background-position: center;
         text-align: start;
@@ -285,7 +286,7 @@ body{
 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 480px) and (max-width: 990px){
     body{
         display: flex;
         flex-direction: column;
@@ -372,6 +373,107 @@ body{
     .video-2{
         width: 100%;
     }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1199px){
+
+     .body-index{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .color{
+        color:  #FBCEA0;
+    }
+
+    .contenedor-personajes{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 0px 0px 170px;
+    }
+
+
+.personaje{
+    border: solid 3px #3A3026 ;
+    width: 30%;
+    text-align: center;
+    }
+    
+    
+    #flecha-up{
+        width: 5%;
+    }
+
+    
+    .navbar-cel{
+        text-align: center;
+        padding-left: 30%;
+    }
+
+    .contenedor-clases{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contenedor-info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        
+        
+    }
+
+    .contenedor-info{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .main-info{
+        height: 1000px;
+        text-align: start;
+    }
+
+    .main-falso{
+        height: 1000px;
+        background-position: center;
+        text-align: start;
+    }
+
+    .videos-index{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .musica-index{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-3{
+        display: 100%;
+    }
+
+    .video-1{
+        width: 100%;
+    }
+
+    .video-2{
+        width: 100%;
+    }
+     
+
 }
     
 

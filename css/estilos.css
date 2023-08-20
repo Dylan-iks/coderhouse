@@ -194,7 +194,7 @@ body{
 
 /* media queries celular  */
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 480px){
     body{
         display: flex;
         flex-direction: column;
@@ -279,6 +279,91 @@ body{
     }
 
 
+}
+
+@media screen and (max-width: 768px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedor-personajes{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #flecha-up{
+        width: 5%;
+    }
+
+    .personaje{
+        width: 100%;
+    }
+
+    .navbar-cel{
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    .contenedor-clases{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contenedor-info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        
+        
+    }
+
+    .contenedor-info{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .main-info{
+        height: 1000px;
+        text-align: start;
+    }
+
+    .main-falso{
+        height: 1000px;
+        background-position: center;
+        text-align: start;
+    }
+
+    .videos-index{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .musica-index{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-3{
+        display: 100%;
+    }
+
+    .video-1{
+        width: 100%;
+    }
+
+    .video-2{
+        width: 100%;
+    }
 }
     
 

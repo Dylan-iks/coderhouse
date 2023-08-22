@@ -328,6 +328,10 @@ body{
         width: 100%;
     }
 
+    .formulario{
+        margin-left: 25%;
+      
+    }
 
 }
 
@@ -418,7 +422,16 @@ body{
     .video-2{
         width: 100%;
     }
+
+    .formulario{
+        margin-left: 25%;
+    }
+
+    
+    
 }
+
+
 
 @media screen and (min-width: 990px) and (max-width: 1199px){
 
@@ -446,18 +459,18 @@ body{
     }
 
 
-.personaje{
-    border: solid 3px #3A3026 ;
-    width: 30%;
-    text-align: center;
+    .personaje{
+        border: solid 3px #3A3026 ;
+        width: 30%;
+        text-align: center;
     }
-    
-    
+        
+        
     #flecha-up{
         width: 5%;
     }
 
-    
+        
     .navbar-cel{
         text-align: center;
         padding-left: 30%;
@@ -474,9 +487,9 @@ body{
         display: flex;
         flex-direction: column;
         text-align: center;
-        
-        
-        
+            
+            
+            
     }
 
     .contenedor-info{
@@ -516,6 +529,10 @@ body{
 
     .video-2{
         width: 100%;
+    }
+
+    .formulario{
+        margin-left: 25%;
     }
      
 

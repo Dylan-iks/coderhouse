@@ -57,6 +57,11 @@
     text-align: center;
     margin-top: 80px;
     background-color: #a7a2a417;
+    
+}
+
+form h1{
+    width: 100%;
 }
 
 .formulario div label{

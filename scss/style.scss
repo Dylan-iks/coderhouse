@@ -1,0 +1,52 @@
+@import "utilidades/variable";
+@import "header";
+@import "formulario";
+@import "flecha";
+@import "cajasrow";
+@import "cajascolumn";
+@import "grid";
+@import "mq480px";
+@import "mq990px";
+@import "mq1199px";
+@import "iframeindex";
+
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+/* fondo */
+body{
+    
+    background-image: url("../multimedia/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: $color-letras;
+    text-shadow: 10px 10px 10px black;
+    
+    .banner{
+        width: 100%;
+    }
+    
+    
+    footer{
+        a{
+            color: $color-link;
+            text-decoration: none;
+            list-style: none;
+        }
+    }
+    
+}
+
+
+
+

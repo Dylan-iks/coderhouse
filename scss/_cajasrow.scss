@@ -1,0 +1,38 @@
+
+
+.contenedor-personajes{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 0px 0px 170px;
+
+    .personaje{
+        border: solid 3px $color-cajas;
+        width: 30%;
+        text-align: center;
+
+        .lista-sub{
+            text-align: left;
+            color: $color-link;
+            list-style:circle;
+
+        }
+        a{
+            color: $color-link;
+            text-decoration: none;
+            list-style: none; 
+        }
+        .clases{
+            width: 20%;
+        }
+
+        .dark{
+            width: 80%; 
+        }
+
+    }
+}

@@ -1,0 +1,45 @@
+@import "utilidades/variable";
+
+header{
+    nav{
+        div{
+            .logo{
+                width: 15%; 
+            }
+            div{
+                ul{
+                    li{
+                        display: inline-block;
+                        padding-left: 150px;
+                        margin: 5px 0px;
+                        font-size: 20px;
+                        color: $color-link;
+                        text-decoration: none;
+                        list-style: none;
+                        a{
+                            color: $color-link;
+                            text-decoration: none;
+                            list-style: none;
+                        }
+                        a:hover{
+                            text-decoration: underline;
+                        }
+
+                        
+                    }
+                }
+            } 
+           
+           
+        }
+    }
+}
+
+
+
+
+
+
+
+
+    

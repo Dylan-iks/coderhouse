@@ -1,0 +1,29 @@
+.contenedor-clases{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 170px;
+    text-align: center;
+    
+    .info-personaje{
+        border: solid 3px #3A3026 ;
+        width: 100%;
+        text-align: center;
+
+        a{
+            color: $color-link;
+            text-decoration: none;
+            list-style: none;
+        }
+        
+        .subclases{
+            width: 4%;
+            
+        }
+    }
+}

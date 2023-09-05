@@ -1,0 +1,41 @@
+.contenedor-info{
+    
+    height: 100vh;
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 1fr 2fr 1.5fr 1fr ;
+    grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+    grid-template-areas: "header header header header"
+    "section section main main"
+    "section section main main"
+    "footer footer footer footer";
+
+    .header-info{
+        grid-area: header;
+    }
+
+    .main-info{
+    grid-area: main;
+    height: 550px;
+    background-image:url("../multimedia/mainfondo.jpeg");
+    background-size: cover;
+    border: solid 3px #3A3026 ;
+    text-align: center;
+    }
+
+    .main-falso{
+    grid-area: section;
+    background-image:url("../multimedia/main4.jpg");
+    height: 550px;
+    background-size: cover;
+    border: solid 3px #3A3026 ;
+    text-align: center;
+
+    }
+
+    footer{
+        grid-area: footer;
+        margin-top: 146px;
+
+    }
+}

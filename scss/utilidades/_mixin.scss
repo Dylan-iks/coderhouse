@@ -1,0 +1,14 @@
+
+@mixin link{
+    color: $color-link;
+    text-decoration: none;
+    list-style: none;
+}
+
+@mixin flex ($display, $flex-direction, $flex-wrap){
+    display: $display;
+    flex-direction: $flex-direction ;
+    flex-wrap: $flex-wrap ;
+    justify-content: center;
+    
+}

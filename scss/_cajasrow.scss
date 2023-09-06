@@ -1,14 +1,9 @@
-
+@import "./utilidades/mixin";
+@import "./utilidades/extend";
 
 .contenedor-personajes{
-    width: 80%;
-    padding: 20px;
-    display: flex;
-    gap: 1rem;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0px 0px 0px 170px;
+    @include flex (flex, row, wrap);
+    @extend %estilos;
 
     .personaje{
         border: solid 3px $color-cajas;
@@ -22,9 +17,7 @@
 
         }
         a{
-            color: $color-link;
-            text-decoration: none;
-            list-style: none; 
+           @include link;  
         }
         .clases{
             width: 20%;

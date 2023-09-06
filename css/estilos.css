@@ -1,5 +1,15 @@
+.contenedor-clases, .contenedor-personajes {
+  width: 80%;
+  padding: 20px;
+  gap: 1rem;
+  margin-left: 170px;
+}
+
 header nav div .logo {
   width: 15%;
+}
+header nav div .logo-img {
+  width: 100%;
 }
 header nav div div ul li {
   display: inline-block;
@@ -63,15 +73,18 @@ header nav div div ul li a:hover {
   color: #FBCEA0;
 }
 
-.contenedor-personajes {
+.contenedor-clases, .contenedor-personajes {
   width: 80%;
   padding: 20px;
-  display: flex;
   gap: 1rem;
+  margin-left: 170px;
+}
+
+.contenedor-personajes {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0px 0px 0px 170px;
 }
 .contenedor-personajes .personaje {
   border: solid 3px #3A3026;
@@ -95,16 +108,18 @@ header nav div div ul li a:hover {
   width: 80%;
 }
 
-.contenedor-clases {
+.contenedor-clases, .contenedor-personajes {
   width: 80%;
   padding: 20px;
-  display: flex;
   gap: 1rem;
+  margin-left: 170px;
+}
+
+.contenedor-clases {
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  margin: 0px 0px 0px 170px;
   text-align: center;
 }
 .contenedor-clases .info-personaje {
@@ -135,14 +150,14 @@ header nav div div ul li a:hover {
 .contenedor-info .main-info {
   grid-area: main;
   height: 550px;
-  background-image: url("../multimedia/mainfondo.jpeg");
+  background-color: rgba(167, 162, 164, 0.0901960784);
   background-size: cover;
   border: solid 3px #3A3026;
   text-align: center;
 }
 .contenedor-info .main-falso {
   grid-area: section;
-  background-image: url("../multimedia/main4.jpg");
+  background-color: rgba(167, 162, 164, 0.0901960784);
   height: 550px;
   background-size: cover;
   border: solid 3px #3A3026;
@@ -278,6 +293,9 @@ header nav div div ul li a:hover {
     height: 1000px;
     text-align: start;
   }
+  body footer {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 990px) and (max-width: 1199px) {
   body {
@@ -345,6 +363,9 @@ header nav div div ul li a:hover {
     height: 1000px;
     text-align: start;
   }
+  body footer {
+    width: 100%;
+  }
 }
 .vm-index {
   display: flex;
@@ -352,6 +373,24 @@ header nav div div ul li a:hover {
   justify-content: center;
   gap: 2rem;
   padding-top: 100px;
+}
+
+footer {
+  background-color: rgba(167, 162, 164, 0.0901960784);
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+footer a img {
+  margin: 10px 0px 10px 0px;
+  width: 40px;
+  height: 40px;
+  transition: 1s;
+}
+footer a img:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 * {
@@ -372,11 +411,6 @@ body {
 }
 body .banner {
   width: 100%;
-}
-body footer a {
-  color: #FBCEA0;
-  text-decoration: none;
-  list-style: none;
 }
 
 /*# sourceMappingURL=estilos.css.map */

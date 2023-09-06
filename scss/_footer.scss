@@ -1,0 +1,21 @@
+footer{
+    background-color: $color-formulario;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    a{
+        
+        img{
+            margin: 10px 0px 10px 0px;
+            width: 40px;
+            height: 40px;
+            transition: 1s;
+        }
+
+        img:hover{
+            transform:scale(1.1);
+            transition: 1s;
+        }
+    }
+}

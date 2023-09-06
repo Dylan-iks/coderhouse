@@ -1,24 +1,18 @@
+@import "./utilidades/mixin";
+@import "./utilidades/extend";
+
 .contenedor-clases{
-    width: 80%;
-    padding: 20px;
-    display: flex;
-    gap: 1rem;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 0px 0px 170px;
+    @include flex (flex, column, wrap);
+    @extend %estilos;
     text-align: center;
     
     .info-personaje{
-        border: solid 3px #3A3026 ;
+        border: solid 3px $color-cajas;
         width: 100%;
         text-align: center;
 
         a{
-            color: $color-link;
-            text-decoration: none;
-            list-style: none;
+            @include link; 
         }
         
         .subclases{

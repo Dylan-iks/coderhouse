@@ -1,5 +1,4 @@
 .contenedor-info{
-    
     height: 100vh;
     display: grid;
     gap: 1rem;
@@ -17,7 +16,7 @@
     .main-info{
     grid-area: main;
     height: 550px;
-    background-image:url("../multimedia/mainfondo.jpeg");
+    background-color: $color-formulario;
     background-size: cover;
     border: solid 3px #3A3026 ;
     text-align: center;
@@ -25,7 +24,7 @@
 
     .main-falso{
     grid-area: section;
-    background-image:url("../multimedia/main4.jpg");
+    background-color: $color-formulario;
     height: 550px;
     background-size: cover;
     border: solid 3px #3A3026 ;

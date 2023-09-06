@@ -1,4 +1,6 @@
-@import "utilidades/variable";
+@import "./utilidades/variable";
+@import "./utilidades/mixin";
+@import "./utilidades/extend";
 @import "header";
 @import "formulario";
 @import "flecha";
@@ -9,6 +11,7 @@
 @import "mq990px";
 @import "mq1199px";
 @import "iframeindex";
+@import "footer";
 
 
 
@@ -35,16 +38,7 @@ body{
     .banner{
         width: 100%;
     }
-    
-    
-    footer{
-        a{
-            color: $color-link;
-            text-decoration: none;
-            list-style: none;
-        }
-    }
-    
+
 }
 
 

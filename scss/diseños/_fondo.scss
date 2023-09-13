@@ -1,0 +1,23 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/* fondo */
+body{
+    
+    background-image: url("../multimedia/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: $color-letras;
+    text-shadow: 10px 10px 10px black;
+    
+    .banner{
+        width: 100%;
+    }
+
+}

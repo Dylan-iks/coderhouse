@@ -1,5 +1,5 @@
-@import "./utilidades/mixin";
-@import "./utilidades/extend";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
 
 .contenedor-clases{
     @include flex (flex, column, wrap);

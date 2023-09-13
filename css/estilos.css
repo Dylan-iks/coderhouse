@@ -47,9 +47,8 @@ header nav div div ul li a:hover {
   text-align: center;
 }
 .formulario .contacto label {
-  margin-right: 50px;
-  margin-top: 50px;
-  margin-left: 50px;
+  text-align: center;
+  margin-top: 30px;
 }
 .formulario .contacto input, .formulario .contacto .input {
   border-radius: 4px;
@@ -204,10 +203,11 @@ header nav div div ul li a:hover {
   }
   body .vm-index iframe {
     width: 80%;
-    margin-left: 60px;
+    margin-left: 40px;
   }
   body .formulario {
     margin-left: 25%;
+    text-align: center;
   }
   body .formulario .input {
     border-radius: 4px;
@@ -228,7 +228,8 @@ header nav div div ul li a:hover {
   }
   body .contenedor-info .main-info {
     height: 1000px;
-    text-align: start;
+    margin: 0px 20px 0px 20px;
+    text-align: center;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 990px) {
@@ -412,6 +413,5 @@ body {
 body .banner {
   width: 100%;
 }
-
 
 /*# sourceMappingURL=estilos.css.map */

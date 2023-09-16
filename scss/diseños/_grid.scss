@@ -13,19 +13,21 @@
         grid-area: header;
     }
 
-    .main-info{
+    .main-uno{
     grid-area: main;
     height: 550px;
+    margin-right: 20px;
     background-color: $color-formulario;
     background-size: cover;
     border: solid 3px #3A3026 ;
     text-align: center;
     }
 
-    .main-falso{
+    .main-dos{
     grid-area: section;
     background-color: $color-formulario;
     height: 550px;
+    margin-left: 20px;
     background-size: cover;
     border: solid 3px #3A3026 ;
     text-align: center;

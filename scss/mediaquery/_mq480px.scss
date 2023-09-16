@@ -1,6 +1,22 @@
 @media screen and (min-width: 320px) and (max-width: 480px){
     body{
-        
+        main{
+            
+            .primer-p{
+                margin-left: 50px ;
+                margin-right: 50px ;
+            }
+            
+            .segundo-p{
+                margin-left: 50px ;
+                margin-right: 50px ;   
+            }
+            
+            .tercer-p{
+                margin-left: 50px ;
+                margin-right: 50px ;
+            }
+        }
         
         .navbar-cel{
             text-align: center;
@@ -74,11 +90,11 @@
             display: flex;
             flex-direction: column;
 
-           .main-falso{
+           .main-dos{
                 display: none;
             }
 
-            .main-info{
+            .main-uno{
                 height: 1000px;
                 margin: 0px 20px 0px 20px;
                 text-align: center;
